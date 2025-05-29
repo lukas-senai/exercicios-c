@@ -7,7 +7,23 @@ Este guia apresenta os conceitos essenciais da programação em C, use e abuse p
 
 ## 1. 🧮 Variáveis e Tipos
 
-Variáveis são espaços na memória do computador onde guardamos informações para usar no programa. Em C, você deve declarar o tipo da variável antes de usá-la.
+Variáveis são nomes que representam espaços na memória. Em C, os nomes devem seguir regras:
+
+- Podem conter letras, números e underline (`_`)
+- Não podem começar com número
+- Não podem conter espaços ou acentos
+
+✔️ Exemplos válidos:
+```c
+nomePessoa, preco_produto, salariobruto, valor1
+```
+
+❌ Exemplos inválidos:
+```c
+1valor, Nome Pessoa, saláriobruto, valor1°
+```
+
+Em C, você deve declarar o tipo da variável antes de usá-la.
 
 ### Tipos básicos mais comuns:
 
